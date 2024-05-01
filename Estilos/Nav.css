@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    background-color: #ffde59;
+}
+
+/* Trabajando el logo*/
+nav a{
+    padding: 10px;
+}
+nav a, nav a img{
+    height: 100px;
+    margin: 0;
+}
+
+/*Trabajando links botones*/
