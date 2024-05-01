@@ -6,10 +6,29 @@ nav{
 /* Trabajando el logo*/
 nav a{
     padding: 10px;
+    flex: 20%;
+    display: flex;
+    flex-wrap: wrap;
 }
 nav a, nav a img{
     height: 100px;
     margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Trabajando links botones*/
+nav ul{
+    display: flex;
+    flex: 80%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav ul li a{
+    text-decoration: none;   
+    font-size: 20px; 
+    
+}

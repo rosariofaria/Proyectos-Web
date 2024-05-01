@@ -4,3 +4,19 @@ body{
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 722px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffde59;
+    }
+    
+
+}
+@media screen and (max-width: 458px){
+    nav ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
